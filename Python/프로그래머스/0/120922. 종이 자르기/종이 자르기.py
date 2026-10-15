@@ -1,4 +1,2 @@
 def solution(M, N):
-    resultX = M - 1
-    resultY = (N - 1) * M
-    return resultX + resultY 
+    return (M - 1) + ((N - 1) * M)
